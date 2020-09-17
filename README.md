@@ -110,7 +110,7 @@ cd Builds/LinuxMakefile/
 make
 ```
 
-### Windows - VisualStudio 2019
+### Windows - VisualStudio2019
 
 Download and Install boost
 
