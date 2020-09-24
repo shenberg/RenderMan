@@ -55,7 +55,8 @@
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\libs;C:\Boost\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Boost\lib;C:\Users\studio-2\AppData\Local\Programs\Python\Python37\libs;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Boost\include\boost-1_74;C:\Users\studio-2\AppData\Local\Programs\Python\Python37\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
