@@ -10,6 +10,7 @@
 
 #ifndef RENDERENGINE_H_INCLUDED
 #define RENDERENGINE_H_INCLUDED
+#define BOOST_PYTHON_STATIC_LIB
 
 #include <random>
 #include <array>
